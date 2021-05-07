@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+header {
+  min-height: 8vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: #636ac9;
+  font-size: large;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+header a:hover {
+  color: honeydew;
+}
+
+.boxcontainer {
+  height: auto;
+  padding: 1rem;
+  background-color: #f3f3f3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.boxcontainer a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.boxcontainer a .box {
+  height: 100px;
+  width: 200px;
+  background-color: #c5c5db;
+  margin: 1rem;
+  padding: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  border-radius: 8px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.boxcontainer a .box:hover {
+  background-color: crimson;
+  color: white;
+}
+
+.credits {
+  padding: 1rem;
+  min-height: 60vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.credits .ctn {
+  background-color: yellow;
+  padding: 0.5rem;
+}
+
+footer {
+  height: 10vh;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  color: white;
+  background-color: #353232;
+}
+/*# sourceMappingURL=style.css.map */
